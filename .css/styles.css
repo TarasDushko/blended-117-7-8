@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+   margin: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+button {
+   cursor: pointer;
+   border: none;
+   font-family: inherit;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+body {
+   font-family: "Poppins", serif;
+   font-size: 16px;
+   background-color: #ffffff;
+   color: #22343d;
+}
+
+.container {
+   width: 1140px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.page-header {
+   display: flex;}
+
+.header-container {
+   display: flex;
+align-items: center;}
+
+.header-nav {display: flex;
+align-items: center;}
+
+
+.header-logo {
+   width: 39px;
+   height: 36px;
+ margin: 22px 16px 22px 0;
+display: inline-block;
+}
+
+.header-logo-nav {
+   font-weight: 700;
+      font-size: 30px;
+      line-height: 0.93;
+      color: #173a56;
+      margin: 26px 237px 26px 0;
+      min-width: 122px;
+}
+
+.header-nav-list {
+   display: flex;
+   gap: 30px;
+   margin-right: 73px;
+}
+
+.header-nav-item {
+
+}
+
+.item-product {
+   line-height: 1.75;
+   font-weight: 600;
+  
+}
+
+.item-nav-link {
+   font-weight: 400;
+   line-height: 1.75;
+}
+
+.header-button-list {
+   display: flex;
+gap: 21px;}
+
+.header-button-item {}
+
+
+.header-button-link {
+   border-radius: 4px;
+   width: 113px;
+   height: 42px;
+   background-color: #02897a;
+
+}
+/*.button-header-container { display: flex;}*/
