@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bisnes promotion</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="./images/logo.png" alt="logo" />
-        <a href=".index.html">Product</a>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <img src="./images/logo.png" class="logo header-logo" alt="logo" />
+          <a href=".index.html" class="">Product</a>
+          <ul>
+            <li><a href="./index.html">Products</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./customers.html">Customers</a></li>
+            <li><a href="/">Resources</a></li>
+          </ul>
+        </nav>
         <ul>
-          <li><a href="./index.html">Products</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="/">Resources</a></li>
+          <li><button type="button">Sign In</button></li>
+          <li><button type="button">Sign Up</button></li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -210,70 +219,73 @@
 
       <!--#endregion s7-->
 
-      <!--#region s8-->
-      <section>
-        <h3>Price Table</h3>
-        <p>We offer competitive price</p>
-        <h4>Free</h4>
-        <ul>
-          <li>
-            <p>price</p>
+      <!--#region price-->
+      <section class="price">
+        <h3 class="price-title">Price Table</h3>
+        <p class="price-text">We offer competitive price</p>
+        <ul class="price-list">
+          <li class="price-item">
+            <h4 class="price-item-title">Free</h4>
+            <p class="price-item-text">Brief price description</p>
+            <h5 class="proce-item-number">0</h5>
+            <p class="price-item-currency">$</p>
+            <p class="price-item-term">Per / month</p>
+            <ul class="price-inner">
+              <li class="inner-item">
+                <h6 class="inner-title-item">Only 2 Operators</h6>
+              </li>
+              <li>
+                <h6 class="inner-title-item">Notifications</h6>
+              </li>
+              <li>
+                <h6 class="inner-title-item">Landing Pages</h6>
+              </li>
+            </ul>
+            <button type="button">Order Now</button>
           </li>
-          <li>
-            <p>0 $ Per / month</p>
-          </li>
-          <li>
-            <p>Only 2 Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing Pages</p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
 
-        <h4>Standard</h4>
-        <ul>
           <li>
+            <h4>Standard</h4>
             <p>Brief price description</p>
+            <h5>5</h5>
+            <p>$</p>
+            <p>Per / month</p>
+            <ul>
+              <li>
+                <h6>5+ Operators</h6>
+              </li>
+              <li>
+                <h6>Notifications</h6>
+              </li>
+              <li>
+                <h6>Landing</h6>
+              </li>
+            </ul>
+            <button type="button">Order Now</button>
           </li>
+
           <li>
-            <p>5 $ Per / month</p>
-          </li>
-          <li>
-            <p>5+ Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing</p>
+            <h4>Premium</h4>
+            <p>Brief price description</p>
+            <h5>10</h5>
+            <p>$</p>
+            <p>Per / month</p>
+            <ul>
+              <li>
+                <h6>10+ Operators</h6>
+              </li>
+              <li>
+                <h6>Notifications</h6>
+              </li>
+              <li>
+                <h6>Landing</h6>
+              </li>
+            </ul>
+            <button type="button">Order Now</button>
           </li>
         </ul>
-        <button type="button">Order Now</button>
-        <h4>Premium</h4>
-        <ul>
-          <li>
-            <p>Brief price description</p>
-          </li>
-          <li>
-            <p>10 $ Per / month</p>
-          </li>
-          <li>
-            <p>10+ Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing</p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
       </section>
-      <!--#endregion s8-->
+      <!--#endregion price-->
 
       <!-- #region s9-->
       <section>
