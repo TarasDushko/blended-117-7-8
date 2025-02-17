@@ -97,12 +97,31 @@ gap: 21px;}
 
 .header-button-item {}
 
+.button-header-container {
+   display: flex;
+   width: 105px;
+   height: 42px;
 
-.header-button-link {
+}
+
+.header-button-link-btn
+{
+   border: 1px solid #bcd0e5;
+      border-radius: 4px;
+      width: 105px;
+      height: 42px;
+      font-weight: 600;
+         font-size: 16px;
+         text-align: center;
+         color: #173a56;
+         background-color: #fff;
+}
+
+.header-button-link
+ {
    border-radius: 4px;
    width: 113px;
    height: 42px;
    background-color: #02897a;
-
+   color: #fff;
 }
-/*.button-header-container { display: flex;}*/
